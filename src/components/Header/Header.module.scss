@@ -1,0 +1,28 @@
+@use '../../styles/_vars' as var;
+header{
+    padding: 24px 0;
+}
+.container{
+    
+    max-width: 1470px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;    
+    column-gap:2rem;
+     
+    a{
+        color:var.$nav_link;
+        font-size: 24px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid transparent;
+        transition: 0.5s ease all;
+
+        &:hover{
+            border-bottom: 3px solid var.$link;
+        }
+    }
+}

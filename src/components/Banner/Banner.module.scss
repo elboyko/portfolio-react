@@ -1,0 +1,68 @@
+@use '../../styles/_vars' as var;
+
+.container{
+        
+    max-width: 1270px;
+    height: 100%;
+    padding: 150px 30px 96px;
+    margin: 0 auto;
+}
+h2{
+    color:var.$link;
+    margin: 0  0 16px;
+}
+h1{
+    color:var.$nav_link;
+    font-size: 72px;
+    line-height: 80px;
+    margin: 0 0 16px;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+   
+}
+p{
+    color:#595a73;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.btn_flex{
+    display: flex;
+    column-gap:50px ;
+}
+.image{
+    width: 500px;
+    z-index: 100;
+    
+}
+.div{
+    position: relative;
+    z-index: 1000;
+}
+
+.form{
+    position: absolute;
+width: 500px;
+    right:-4px;
+    top: 27px;
+    transform: rotate(33deg);
+    z-index: -2;  
+    
+}
+
+.form1{
+    position: absolute;
+    width: 500px;
+    right:101px;
+    top: -10px;
+    transform: rotate(-234deg);
+     z-index: -10;
+}
+
+.content{
+    max-width: 600px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
