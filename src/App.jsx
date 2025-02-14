@@ -1,18 +1,25 @@
-import Banner from "./components/Banner/Banner"
 
-import Header from "./components/Header/Header"
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
+import Contacts from "./Pages/Contacts/Contacts";
+import Projects from "./Pages/Projects/Projects";
 
 function App() {
- 
-
   return (
     <>
-      <Header/>
-      <Banner/>
-      
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />                 
+          <Route path="/contacts" element={<Contacts/>}/>
+        </Routes>
+       
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

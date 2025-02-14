@@ -9,4 +9,11 @@
     outline: none;
     border: none;
     border-radius: 99px;
+    cursor: pointer;
+    transition: .5s ease-in all;
+}
+.btn:hover{
+  transform:  translate3d(5px, -5px, -5px);
+  transition: .5s ease-in all;
+ 
 }
