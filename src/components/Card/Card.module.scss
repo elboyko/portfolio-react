@@ -1,0 +1,40 @@
+@use "../../styles/_vars" as var;
+
+.inner{
+    background-color: #e5f0efbe;
+    max-width: 600px;
+    width: 100%;
+    height: 550px;
+    border-radius: 30px;
+    border:2px solid var.$link;
+   
+    margin: 0 auto;
+}
+.image{
+
+    display: flex;
+    justify-self: center;
+    height: 400px;
+    padding-top: 40px;
+    img{
+        width: 400px;
+    }
+}
+.desc{
+    height: 147px;
+    padding: 24px 32px ;
+    background-color: #fff;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    h2{
+        font-size: 22px;
+        margin: 0 0 4px;
+        color:var.$nav_link
+    }
+    p{
+        font-size: 18px;
+        color:#595A73;
+        padding: 0;
+        margin: 0;
+    }
+}

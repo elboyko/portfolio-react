@@ -1,3 +1,5 @@
+
+import CardList from "../../components/CardList/CardList"
 import Header from "../../components/Header/Header"
 
 function Projects() {
@@ -5,7 +7,7 @@ function Projects() {
 
     <>
     <Header/>
-    <div> Projects</div>
+    <CardList/>
     </>
     
   )

@@ -1,5 +1,5 @@
 import Button from "../Button/Button";
-import photo from "../../assets/hl.png";
+import photo from "/img/hl.png";
 import styles from "./Banner.module.scss";
 import { Link } from "react-router-dom";
 function Banner() {
