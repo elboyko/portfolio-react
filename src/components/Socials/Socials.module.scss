@@ -1,0 +1,21 @@
+@use '../../styles/_vars' as var;
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 190px;
+    margin: 70px auto 0;
+}
+.icon{
+    svg{
+        width: 40px;
+        height: 40px; 
+        fill: var.$nav_link;
+        transition: .5s ease all;
+    }
+    svg:hover{
+    fill: var.$link;
+    scale: (1.2);
+    }
+}

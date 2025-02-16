@@ -1,7 +1,9 @@
 import Button from "../Button/Button";
+
 import photo from "/img/hl.png";
 import styles from "./Banner.module.scss";
 import { Link } from "react-router-dom";
+import Socials from "../Socials/Socials";
 function Banner() {
   return (
     <div className={styles.container}>
@@ -22,7 +24,9 @@ function Banner() {
             <img className={styles.image} src={photo} alt="main image" />
           </div>
         </div>
+       
       </div>
+       <Socials/>
     </div>
   );
 }
