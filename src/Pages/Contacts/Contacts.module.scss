@@ -1,0 +1,18 @@
+@use "../../styles/_vars" as var;
+.container{
+    max-width: 600px;
+    margin: 150px auto 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.title{
+    font-size: 30px;
+}
+
+.mail{
+    color:black;
+    font-size: 20px;
+}

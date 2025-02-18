@@ -1,0 +1,16 @@
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 20px;
+  width: 110px;
+  height: 35px;
+  padding: 5px;
+  color: #374785;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border: 1px solid #374785;
+}/*# sourceMappingURL=Badge.module.css.map */

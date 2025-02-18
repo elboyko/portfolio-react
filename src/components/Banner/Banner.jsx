@@ -1,8 +1,6 @@
 import Button from "../Button/Button";
-
 import photo from "/img/hl.png";
 import styles from "./Banner.module.scss";
-import { Link } from "react-router-dom";
 import Socials from "../Socials/Socials";
 function Banner() {
   return (
@@ -13,10 +11,9 @@ function Banner() {
           <h1>Привет, меня зовут Елена</h1>
           <p>Создаю сайты, используя современные технологии, такие как React, Next JS, TypeScript, JavaScrript, SCSS.</p>
           <div className={styles.btn_flex}>
-            <Link to="/contacts">
-                <Button color="#49c5b6" text="Contact me" /> 
-             </Link>
-            <Button color="#FFC5B1" text="Download CV" />
+            <a  href="/boyko.pdf" download="boyko-cv" >
+                <Button color="#49c5b6" text="Download CV" /> 
+             </a>
           </div>
         </div>
         <div>

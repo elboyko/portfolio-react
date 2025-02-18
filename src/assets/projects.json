@@ -3,32 +3,42 @@
         "id": 1,
         "imageUrl": "../../img/project3.png",
         "title": "Приложение для изучения английских слов",
-        "text": "Одностраничное приложение на React"
+        "text": "Одностраничное приложение на React",
+        "skill":"React",
+        "link":"https://elboyko.github.io/react-english-words/"
       },
       {
         "id": 2,
         "imageUrl": "../../img/project4.png",
         "title": "Портфолио",
-        "text": "Одностраничное приложение на React, Scss"
+        "text": "Одностраничное приложение на React, Scss",
+         "skill":"React",
+         "link":""
       },
 
        {
         "id": 3,
         "imageUrl": "../../img/project4.png",
         "title": "Проект киносайта",
-        "text": "JS проект с использованием API киносайта для показа лучших фильмов года"
+        "text": "JS проект с использованием API киносайта для показа лучших фильмов года",
+         "skill":"JavaScript",
+         "link":"https://elboyko.github.io/js-project/"
       }, 
 
         {
       "id": 4,
       "imageUrl": "../../img/project1.png",
       "title": "Школа программирования",
-      "text": "Лендинг для школы программирования с использованием JavaScript"
+      "text": "Лендинг для школы программирования с использованием JavaScript",
+      "skill":"JavaScript",
+      "link": "https://elboyko.github.io/Kontur/"
     }, 
         {
       "id": 5,
       "imageUrl": "../../img/project2.png",
       "title": "Магазин чая",
-      "text": "Лендинг для магазина чая с использованием JavaScript"
+      "text": "Лендинг для магазина чая с использованием JavaScript",
+      "skill":"JavaScript",
+      "link":"https://elboyko.github.io/TeaSite/"
      }
 ]

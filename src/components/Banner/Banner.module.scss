@@ -2,8 +2,9 @@
 
 .container{ 
     max-width: 1270px;
+    height: 100vh;
     height: 100%;
-    padding: 120px 30px 30px;
+    padding: 100px 30px 20px;
     margin: 0 auto;
 }
 h2{
@@ -33,13 +34,8 @@ p{
     display: block;
     position: relative;
     width: 500px;
-    z-index: 100;  
 }
 
-.div{
-    position: relative;
-    z-index: 1000;
-}
 .content{
     max-width: 600px;
     display: flex;

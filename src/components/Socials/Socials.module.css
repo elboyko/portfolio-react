@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 190px;
+  margin: 70px auto 0;
+}
+
+.icon svg {
+  width: 40px;
+  height: 40px;
+  fill: #374785;
+  transition: 0.5s ease all;
+}
+.icon svg:hover {
+  fill: #49c5b6;
+  scale: 1.2;
+}/*# sourceMappingURL=Socials.module.css.map */

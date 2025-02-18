@@ -1,0 +1,31 @@
+nav {
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1470px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  padding: 10px 0;
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+ul li > a {
+  color: #374785;
+  font-size: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+  transition: 0.7s ease all;
+}
+ul li > a:hover {
+  border-bottom: 3px solid #49c5b6;
+  transition: 0.7s ease all;
+}
+ul li > a:active {
+  color: #49c5b6;
+}/*# sourceMappingURL=Header.module.css.map */

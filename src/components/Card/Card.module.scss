@@ -1,13 +1,13 @@
 @use "../../styles/_vars" as var;
 
 .inner{
-    background-color: #e2eeedbe;
+    background-color: #9be7de63;
     max-width: 600px;
     width: 100%;
-    height: 550px;
+    height: 581px;
     border-radius: 30px;
     border:2px solid var.$link;
-   
+   position: relative;
     margin: 0 auto;
 }
 .image{
@@ -16,16 +16,20 @@
     justify-self: center;
     height: 400px;
     padding-top: 40px;
+    padding-bottom: 20px;
+  
     img{
         width: 400px;
+          border-radius: 30px;
     }
 }
 .desc{
-    height: 147px;
-    padding: 24px 32px ;
+    height: 177px;
+    padding: 14px 32px 0px;
     background-color: #fff;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    overflow: hidden;
     h2{
         font-size: 22px;
         margin: 0 0 4px;

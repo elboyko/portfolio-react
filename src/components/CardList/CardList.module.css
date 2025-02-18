@@ -1,0 +1,14 @@
+.inner {
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+  align-self: center;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 30px;
+  margin: 0 auto;
+}/*# sourceMappingURL=CardList.module.css.map */

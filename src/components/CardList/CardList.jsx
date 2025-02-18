@@ -6,7 +6,7 @@ function CardList() {
     <div className={styles.container}>
       <div className={styles.inner}>
         {cards.map((card) =>(
-<Card key={card.id} img={card.imageUrl} text={card.text} title={card.title} />
+<Card key={card.id} img={card.imageUrl} text={card.text} title={card.title} skill={card.skill} link={card.link}/>
         ))}
        
       </div>

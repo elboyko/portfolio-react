@@ -1,0 +1,49 @@
+.container {
+  max-width: 1270px;
+  height: 100vh;
+  height: 100%;
+  padding: 100px 30px 20px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #49c5b6;
+  margin: 0 0 16px;
+}
+
+h1 {
+  color: #374785;
+  font-size: 72px;
+  line-height: 80px;
+  margin: 0 0 16px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: #595a73;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.btn_flex {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+
+.image {
+  display: block;
+  position: relative;
+  width: 500px;
+}
+
+.content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}/*# sourceMappingURL=Banner.module.css.map */
