@@ -2,10 +2,12 @@
 
 
 import styles from "./Button.module.scss"
-function Button({text,color}) {
+function Button({text,color, children}) {
   return (
 
-    <button style={{backgroundColor:color}} className={styles.btn}>{text}</button>
+    <button style={{backgroundColor:color}} className={styles.btn}>{text}
+    {children}
+    </button>
   )
 }
 

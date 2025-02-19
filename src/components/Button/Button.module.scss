@@ -1,11 +1,13 @@
 @use '../../styles/_vars' as var;
 .btn{
+  display: flex;
+ justify-content: space-around;
   width: 250px;
     background-color: var.$link;
     color:#fff;
     font-size: 24px;
     font-weight: 700;
-    padding: 24px 34px;
+    padding: 24px 24px;
     outline: none;
    border:none;
     border-radius: 100px;

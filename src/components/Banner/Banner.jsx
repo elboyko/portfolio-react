@@ -2,6 +2,7 @@ import Button from "../Button/Button";
 import photo from "/img/hl.png";
 import styles from "./Banner.module.scss";
 import Socials from "../Socials/Socials";
+import { Download} from "lucide-react"
 function Banner() {
   return (
     <div className={styles.container}>
@@ -12,7 +13,8 @@ function Banner() {
           <p>Создаю сайты, используя современные технологии, такие как React, Next JS, TypeScript, JavaScrript, SCSS.</p>
           <div className={styles.btn_flex}>
             <a  href="/boyko.pdf" download="boyko-cv" >
-                <Button color="#49c5b6" text="Download CV" /> 
+                <Button color="#49c5b6" text="Download CV" > <Download size={22}/>
+                </Button>
              </a>
           </div>
         </div>
