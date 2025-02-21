@@ -1,6 +1,6 @@
 import SkillCard from "../SkillCard/SkillCard";
 
-import styles from "./SkillList.module.scss";
+import styles from "./SkillList.module.css";
 const lists = [
   {
     id: "1",

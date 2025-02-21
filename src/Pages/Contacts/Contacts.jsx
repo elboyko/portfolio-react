@@ -1,7 +1,7 @@
 import Header from "../../components/Header/Header";
 import Socials from "../../components/Socials/Socials";
 import { Link } from "react-router-dom";
-import styles from "./Contacts.module.scss"
+import styles from "./Contacts.module.css"
 import {  MailIcon, HomeIcon} from 'lucide-react';
 
 function Contacts() {

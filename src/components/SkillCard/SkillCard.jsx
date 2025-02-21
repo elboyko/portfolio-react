@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import styles from "./SkillCard.module.scss";
+import styles from "./SkillCard.module.css";
 
 function SkillCard({ title, img }) {
   return (

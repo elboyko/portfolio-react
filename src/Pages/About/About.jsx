@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header"
-import styles from "./About.module.scss"
+import styles from "./About.module.css"
 import SkillList from "../../components/SkillList/SkillList"
 
 
