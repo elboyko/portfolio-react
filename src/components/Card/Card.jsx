@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import Badge from "../Badge/Badge";
 import Button1 from "../Button1/Button1";
-import styles from "./Card.module.scss";
+import styles from "./Card.module.css";
 import { Link } from "react-router-dom";
 
 

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import styles from "./Button1.module.scss"
+import styles from "./Button1.module.css"
 
 function Button1({text}) {
   return (

@@ -1,7 +1,9 @@
 
-import styles from "./Header.module.scss";
-import {  Globe} from 'lucide-react';
+import styles from "./Header.module.css";
+import {  Globe, Menu} from 'lucide-react';
 import { NavLink } from "react-router-dom";
+import HeaderBurger from "./HeaderBurder/HeaderBurger";
+import { useState } from "react";
 const Header = () => {
  const setActive=({ isActive }) => ({
    color:isActive ? "#49c5b6" : {},
@@ -9,11 +11,15 @@ const Header = () => {
   
   }) 
 
-
+const [openBurder, setOpenBurger]=useState(false)
+const handleOpen=() =>{
+  setOpenBurger(!openBurder)
+  console.log('work')
+}
   return (
   <div className={styles.container}> 
-   <nav>
-        <ul>
+   <nav className={styles.desctop}>
+        <ul className={styles.header_desctop}>
           <li className={styles.active}>
             <NavLink to="/"   style={setActive} >Home</NavLink>
           </li>
@@ -29,6 +35,12 @@ const Header = () => {
             <NavLink to="/contacts" style={setActive } >Contacts</NavLink>
           </li>
         </ul>
+        <button className={`${styles.globe} ${styles.burger_btn}`}>
+          <Menu  onClick = {()=> handleOpen()}  size={30} style={{color:"#49c5b6"}} className={styles.svg}/>
+        </button>
+        {openBurder ?  <HeaderBurger openBurder={openBurder}  setOpenBurger={setOpenBurger}/> : ""}
+       
+       
         <button className={styles.globe}>
           <Globe size={30} style={{color:"#49c5b6"}} className={styles.svg}/>
         </button>

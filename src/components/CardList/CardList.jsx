@@ -1,5 +1,5 @@
 import Card from "../Card/Card";
-import styles from "./CardList.module.scss";
+import styles from "./CardList.module.css";
 import cards from "../../assets/projects.json"
 function CardList() {
   return (

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import styles from "./Badge.module.scss";
+import styles from "./Badge.module.css";
 
 function Badge({skill}) {
   return (

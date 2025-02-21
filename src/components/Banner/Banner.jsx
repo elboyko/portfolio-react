@@ -1,6 +1,6 @@
 import Button from "../Button/Button";
 import photo from "/img/hl.png";
-import styles from "./Banner.module.scss";
+import styles from "./Banner.module.css";
 import Socials from "../Socials/Socials";
 import { Download} from "lucide-react"
 function Banner() {

@@ -1,4 +1,4 @@
-import styles from "./Socials.module.scss";
+import styles from "./Socials.module.css";
 import { Link } from "react-router-dom";
 import {  
     RiLinkedinFill, 

@@ -1,31 +1,74 @@
+/* @use "../../styles/_vars" as var; */
 nav {
   padding: 24px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
 }
-
 .container {
   max-width: 1470px;
   padding: 0 30px;
   margin: 0 auto;
 }
-
 ul {
   display: flex;
   justify-content: end;
   padding: 10px 0;
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
+  column-gap: 2.5rem;
+
+  li > a {
+    color: #374785;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+    transition: 0.7s ease all;
+
+    &:hover {
+      border-bottom: 3px solid  #374785;;
+      transition: 0.7s ease all;
+    }
+    &:active {
+      color: green
+    }
+  }
 }
-ul li > a {
-  color: #374785;
-  font-size: 30px;
-  padding-bottom: 10px;
-  border-bottom: 3px solid transparent;
-  transition: 0.7s ease all;
+.globe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border-radius: 50%;
+background-color: #fff;
+border:1px solid  #374785;;
+padding: 8px;
+outline: none;
+transition: 0.7s ease all;
+  }
+
+  
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border-radius: 50%;
+background-color: #fff;
+border:1px solid #374785;;
+padding: 8px;
+outline: none;
+transition: 0.7s ease all;
 }
-ul li > a:hover {
-  border-bottom: 3px solid #49c5b6;
-  transition: 0.7s ease all;
+.burger_btn{
+  display: none;
 }
-ul li > a:active {
-  color: #49c5b6;
-}/*# sourceMappingURL=Header.module.css.map */
+.burger{
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .burger{
+    display: block;
+  }
+  .header_desctop{display:none }
+  .burger_btn{
+    display: block;
+  }
+}
