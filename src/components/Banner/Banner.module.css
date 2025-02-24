@@ -2,7 +2,7 @@
   max-width: 1270px;
   height: 100vh;
   height: 100%;
-  padding: 100px 30px 20px;
+  padding: clamp(3.125rem, -0.586rem + 7.81vw, 6.25rem) 30px 20px;
   margin: 0 auto;
 }
 
@@ -13,14 +13,14 @@ h2 {
 
 h1 {
   color: #374785;
-  font-size: 72px;
-  line-height: 80px;
+ font-size: clamp(2.5rem, 0.125rem + 5vw, 4.5rem);
+  line-height: clamp(3rem, 0.625rem + 5vw, 5rem);
   margin: 0 0 16px;
 }
 
 .inner {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 p {
@@ -38,7 +38,8 @@ p {
 .image {
   display: block;
   position: relative;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
 }
 
 .content {
@@ -47,3 +48,31 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }/*# sourceMappingURL=Banner.module.css.map */
+
+@media screen and (max-width: 760px) {
+  h1{
+   font-size: 40px;
+   line-height: 48px;
+  }
+  .container{
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .inner{
+    grid-template-columns: 1fr;
+  }
+  .image{
+    display: none;
+  }
+  .content{
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .btn_flex{
+    justify-content: center;
+  }
+  .container{
+    padding-top: clamp(2.188rem, 1.866rem + 1.37vw, 2.5rem);
+  }
+}
