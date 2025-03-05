@@ -1,15 +1,14 @@
+import CardList from "../../components/CardList/CardList";
+import Header from "../../components/Header/Header";
 
-import CardList from "../../components/CardList/CardList"
-import Header from "../../components/Header/Header"
 
 function Projects() {
   return (
     <>
-    <Header/>
-    <CardList/>
+      <Header />
+      <CardList />
     </>
-    
-  )
+  );
 }
 
-export default Projects
+export default Projects;

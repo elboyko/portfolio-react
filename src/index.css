@@ -19,3 +19,17 @@ li{
   list-style-type: none;
 }
 
+
+.slick-dots li.slick-active button:before {
+  color: #49c5b6 !important;
+  font-size: 11px !important;
+}
+.slick-dots li button:before {
+  font-size: 10px !important;
+  top: 15px !important;
+  margin-bottom: 5px !important;
+  color:#374785 !important;
+}
+/* .slick-dots li button:before:hover{
+  color:#374785 !important;
+} */

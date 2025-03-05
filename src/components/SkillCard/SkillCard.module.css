@@ -9,9 +9,10 @@
     text-align: center;
     padding: 8px;
     border-radius: 15px;
-    background-color: rgb(240 249 255);
+    background-color: rgba(144, 154, 160, 0.548);
     border-color:#e5e7eb;
     border-color:rgb(226 232 240);
+    margin: 0 auto;
 
     img{
         align-items: center;
@@ -23,4 +24,16 @@
 }
 .title{
     margin: 0;  
+}
+
+@media screen and (max-width: 400px) {
+
+    .inner{
+        width: 120px;   
+        height: 120px;
+
+    }
+    .title{
+        font-size: 18px;
+    }
 }

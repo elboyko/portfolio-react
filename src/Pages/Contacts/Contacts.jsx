@@ -8,6 +8,7 @@ function Contacts() {
   return (
     <>
       <Header />
+     <Socials />
       <div className={styles.container}>
         <h1 className={styles.title}>
           <HomeIcon size={26} style={{color:"#49c5b6"}} />
@@ -17,7 +18,7 @@ function Contacts() {
         <MailIcon size={26} style={{color:"#49c5b6"}}/>
         boyko.lena@gmail.com</Link>
       </div>
-        <Socials/>
+       
     </>
   );
 }

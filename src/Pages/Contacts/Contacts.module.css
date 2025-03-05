@@ -1,9 +1,12 @@
 
 .container {
-  max-width: 600px;
-  margin: 150px auto 20px;
+  /* max-width: 600px; */
+
+  width: 100%;
+  margin: 30px auto 20px;
   display: flex;
   flex-direction: column;
+  gap: 3px;
   text-align: center;
   align-items: center;
 }
@@ -45,4 +48,23 @@
   transform: scale(1.1);
   background-color: #f1ebeb;
   border-radius: 20px;
+}
+.socials{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .title{
+    font-size: 24px;
+    width: 350px;
+    height: 70px;
+    margin-bottom: 5px;
+  }
+  .mail{
+    width: 350px;
+    font-size: 24px;
+    margin-top: 5px;
+    height: 70px;
+  }
 }
