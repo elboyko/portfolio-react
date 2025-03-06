@@ -1,6 +1,5 @@
 .container {
   max-width: 1270px;
-  height: 100vh;
   height: 100%;
   padding: clamp(3.125rem, -0.586rem + 7.81vw, 6.25rem) 30px 20px;
   margin: 0 auto;
