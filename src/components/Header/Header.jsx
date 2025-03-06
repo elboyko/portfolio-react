@@ -4,6 +4,7 @@ import {  Globe, Menu} from 'lucide-react';
 import { NavLink } from "react-router-dom";
 import HeaderBurger from "./HeaderBurder/HeaderBurger";
 import { useState } from "react";
+
 const Header = () => {
  const setActive=({ isActive }) => ({
    color:isActive ? "#49c5b6" : {},

@@ -7,7 +7,10 @@ const listsMenu = [
 ];
 import { Link } from "react-router-dom";
 import styles from "./HeaderBurger.module.css"
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { useClickOutside } from "../../../hooks/useClickOutside";
+
+
 function HeaderBurger({openBurder,setOpenBurger}) {
     const [closeBtn, setCloseBtn]=useState(false)
     
@@ -16,11 +19,16 @@ function HeaderBurger({openBurder,setOpenBurger}) {
         console.log("hello")
         setOpenBurger(!openBurder)
       }
-  return (
- <nav className={closeBtn ? styles.burger_none : ""}>
-      <ul className={styles.burger_inner}>
+const menuRef=useRef(null)
+useClickOutside(menuRef, ()=>{
+  if(openBurder) setTimeout(()=> setOpenBurger(false), 80)
+  
+})
 
-        <div onClick={() => handleClose()}>
+  return (
+ <nav className={closeBtn ? styles.burger_none : ""}  ref={menuRef} >
+      <ul className={styles.burger_inner}>
+        <div onClick={() => handleClose()} >
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" ><path d="M18 6 6 18"/><path d="m6 6 12 12"/>  </svg>
         </div>
   
