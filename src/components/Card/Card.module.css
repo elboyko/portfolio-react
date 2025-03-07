@@ -13,21 +13,24 @@
   display: flex;
   justify-self: center;
   height: 400px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  max-width: 400px;
+  padding: 40px 15px 20px;
+
 }
 .image img {
-  width: 400px;
+  max-width: 400px;
   border-radius: 30px;
+  width: 100%;
 }
 
 .desc {
-  height: 177px;
-  padding: 14px 32px 0px;
-  background-color: #fff;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  overflow: hidden;
+  /* height: 177px; */
+  padding: 14px 32px 14px;
+ 
+overflow: hidden;
+
+margin-top: auto;
+
 }
 .desc h2 {
   font-size: 22px;
@@ -40,3 +43,31 @@
   padding: 0;
   margin: 0;
 }/*# sourceMappingURL=Card.module.css.map */
+
+@media screen and (max-width: 500px) {
+
+.image{
+  max-width: 400px;
+  max-height: 340px;
+  
+}
+.image img{
+  max-width: 400px;
+  
+}
+.inner{
+  max-height: 581px;
+  height: 100%;
+}
+.desc{
+  padding-top: 0;
+}
+.desc h2 {
+  font-size: 18px;
+  line-height: 21px;
+}
+.desc p {
+  font-size: 16px;
+  line-height: 19px;
+}
+}

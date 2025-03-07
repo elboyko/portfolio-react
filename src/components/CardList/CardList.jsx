@@ -8,13 +8,25 @@ import "slick-carousel/slick/slick-theme.css";
 
 function CardList() {
   const settings = {
-    arrows:false,
-    dots: true,
+    arrows:true,
+    dots: false,
     infinite: true,
     adaptiveHeight:true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          arrows:false,
+          dots: true,
+          infinite:true
+        }
+      }
+      
+    ]
   };
   return (
     <div className={styles.container}>

@@ -30,6 +30,6 @@ li{
   margin-bottom: 5px !important;
   color:#374785 !important;
 }
-/* .slick-dots li button:before:hover{
-  color:#374785 !important;
-} */
+.slick-prev:before, .slick-next:before{
+  color:#49c5b6 !important;
+} 

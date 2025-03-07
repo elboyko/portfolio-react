@@ -1,6 +1,6 @@
 
 import styles from "./Header.module.css";
-import {  Globe, Menu} from 'lucide-react';
+import {  Menu} from 'lucide-react';
 import { NavLink } from "react-router-dom";
 import HeaderBurger from "./HeaderBurder/HeaderBurger";
 import { useState } from "react";
@@ -42,9 +42,9 @@ const handleOpen=() =>{
         {openBurder ?  <HeaderBurger openBurder={openBurder}  setOpenBurger={setOpenBurger}/> : ""}
        
        
-        <button className={styles.globe}>
+        {/* <button className={styles.globe}>
           <Globe size={30} style={{color:"#49c5b6"}} className={styles.svg}/>
-        </button>
+        </button> */}
     </nav>
     </div>
   );

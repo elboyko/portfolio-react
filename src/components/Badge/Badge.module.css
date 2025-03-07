@@ -14,3 +14,13 @@
   font-size: 18px;
   border: 1px solid #374785;
 }/*# sourceMappingURL=Badge.module.css.map */
+
+@media screen and (max-width: 500px) {
+  .badge{
+    width: 90px;
+  height: 20px;
+  font-size: 14px;
+
+  }
+  
+}
