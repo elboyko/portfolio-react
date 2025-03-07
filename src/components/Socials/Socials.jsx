@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import {  
     RiLinkedinFill, 
     RiGithubFill,  
-    RiTelegramFill 
+    RiTelegramFill
   } from "react-icons/ri";
 
   const icons = [

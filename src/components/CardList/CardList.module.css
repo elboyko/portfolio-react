@@ -1,5 +1,5 @@
 .inner {
-  margin: 50px auto;
+  margin: 0px auto;
   /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px; */
@@ -21,3 +21,22 @@
    justify-content: space-around; */
 }
 
+.title{
+  margin: 0 auto 40px;
+  width: 220px;
+  font-size: 30px;
+  color: #49c5b6;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+.title:before {
+  position: absolute;
+  top: 12px;
+  left: -28px;
+  content: "";
+  width: 22px;
+  height: 20px;
+  background-image: url(dots-light.svg);
+  background-repeat: no-repeat;
+}

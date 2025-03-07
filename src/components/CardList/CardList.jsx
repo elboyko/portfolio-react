@@ -19,6 +19,7 @@ function CardList() {
   return (
     <div className={styles.container}>
       <div className={styles.inner}>
+        <p className={styles.title}>Мои проекты</p>
         <div className={styles.slider_container}>
           <Slider {...settings}>
             {cards.map((card) => (
