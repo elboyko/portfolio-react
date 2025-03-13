@@ -48,6 +48,21 @@ p {
   justify-content: space-between;
 }/*# sourceMappingURL=Banner.module.css.map */
 
+.scrollDown{
+  display: block;
+  width: 30px;
+  animation: arrow-down ease 2s infinite;
+}
+
+@keyframes arrow-down{
+  0%{
+    transform: translateY(0);
+  }
+  30%{
+    transform: translateY(10px);
+  }
+}
+
 @media screen and (max-width: 760px) {
   h1{
    font-size: 40px;
@@ -73,5 +88,8 @@ p {
   }
   .container{
     padding-top: clamp(2.188rem, 1.866rem + 1.37vw, 2.5rem);
+  }
+  .scrollDown{
+    margin: 10px auto;
   }
 }

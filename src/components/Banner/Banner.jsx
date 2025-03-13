@@ -2,7 +2,8 @@ import Button from "../Button/Button";
 import photo from "/img/hl.png";
 import styles from "./Banner.module.css";
 import Socials from "../Socials/Socials";
-import { Download} from "lucide-react"
+import { Download} from "lucide-react";
+import { RiArrowDownSLine } from "react-icons/ri";
 function Banner() {
   return (
     <div className={styles.container}>
@@ -17,13 +18,18 @@ function Banner() {
                 </Button>
              </a>
           </div>
+          
         </div>
         <div>
+          <div className={styles.scrollDown}>
+            <RiArrowDownSLine  style={{ fill:"#49c5b6" ,fontSize:"30px"}}/>
+          </div>
+          
           <div className={styles.div}>
             <img className={styles.image} src={photo} alt="main image" />
           </div>
         </div>
-       
+        
       </div>
        <Socials/>
     </div>

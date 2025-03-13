@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
-import { RiLinkedinFill, RiGithubFill, RiTelegramFill,   RiMailLine,  RiArrowUpSLine } from "react-icons/ri";
+import { RiLinkedinFill, RiGithubFill, RiTelegramFill,   RiMailLine,  RiArrowUpLine } from "react-icons/ri";
 
 const icons = [
   {
@@ -26,6 +26,14 @@ const icons = [
 ];
 
 function Footer() {
+const scrollTop= ()=>{
+  window.scrollTo({
+    top:0,
+    behavior:"smooth"
+  })
+}
+
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
@@ -47,7 +55,7 @@ function Footer() {
         Copyright © Elena Boyko. All rights reserved.
       </div>
       <div className={styles.arrow}>
-        <RiArrowUpSLine style={{fontSize:"30px", fill:"#49c5b6" }}/>
+        <RiArrowUpLine  onClick={scrollTop} style={{width:"35px", fill:"#49c5b6" }}/>
       </div>
 
     </footer>
