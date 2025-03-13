@@ -3,7 +3,7 @@ import photo from "/img/hl.png";
 import styles from "./Banner.module.css";
 import Socials from "../Socials/Socials";
 import { Download} from "lucide-react";
-import { RiArrowDownSLine } from "react-icons/ri";
+import {RiArrowDownDoubleLine  } from "react-icons/ri";
 function Banner() {
   return (
     <div className={styles.container}>
@@ -22,7 +22,7 @@ function Banner() {
         </div>
         <div>
           <div className={styles.scrollDown}>
-            <RiArrowDownSLine  style={{ fill:"#49c5b6" ,fontSize:"30px"}}/>
+            <RiArrowDownDoubleLine  style={{ fill:"#49c5b6" ,fontSize:"30px"}}/>
           </div>
           
           <div className={styles.div}>

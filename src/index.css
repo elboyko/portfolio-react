@@ -32,4 +32,5 @@ li{
 }
 .slick-prev:before, .slick-next:before{
   color:#49c5b6 !important;
+  font-size: 25px !important;
 } 
