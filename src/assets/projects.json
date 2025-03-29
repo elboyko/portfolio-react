@@ -9,7 +9,7 @@
       },
       {
         "id": 2,
-        "imageUrl": "../../img/project4.png",
+        "imageUrl": "../../img/project5.png",
         "title": "Портфолио",
         "text": "Одностраничное приложение на React",
          "skill":"React",
