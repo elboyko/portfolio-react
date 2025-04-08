@@ -9,38 +9,38 @@ const lists = [
   },
   {
     id: "2",
-    img: "/skills/css.svg",
+    img: "/css.svg",
     title: "CSS",
   },
 
   {
     id: "3",
-    img: "/skills/sass.svg",
+    img: "/sass.svg",
     title: "SASS",
   },
   {
     id: "4",
-    img: "/skills/javascript.svg",
+    img: "/javascript.svg",
     title: "JavaScript",
   },
   {
     id: "5",
-    img: "/skills/typescript.svg",
+    img: "/typescript.svg",
     title: "TypeScript",
   },
   {
     id: "6",
-    img: "/skills/react.svg",
+    img: "/react.svg",
     title: "React",
   },
   {
     id: "7",
-    img: "/skills/nextjs.svg",
+    img: "/nextjs.svg",
     title: "Next JS",
   },
   {
     id: "8",
-    img: "/skills/git.svg",
+    img: "/git.svg",
     title: "Git",
   },
 ];
