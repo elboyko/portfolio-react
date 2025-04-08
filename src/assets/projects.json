@@ -1,7 +1,7 @@
 [
       {
         "id": 1,
-        "imageUrl": "../../img/project3.png",
+        "imageUrl": "../img/project3.png",
         "title": "Приложение для изучения английских слов",
         "text": "Одностраничное приложение на React",
         "skill":"React",
@@ -9,7 +9,7 @@
       },
       {
         "id": 2,
-        "imageUrl": "../../img/project5.png",
+        "imageUrl": "../../project5.png",
         "title": "Портфолио",
         "text": "Одностраничное приложение на React",
          "skill":"React",

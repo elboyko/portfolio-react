@@ -4,7 +4,7 @@ import styles from "./SkillList.module.css";
 const lists = [
   {
     id: "1",
-    img: "/skills/html.svg",
+    img: "/html.svg",
     title: "HTML",
   },
   {
