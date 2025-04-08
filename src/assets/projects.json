@@ -1,7 +1,7 @@
 [
       {
         "id": 1,
-        "imageUrl": "./project1.png",
+        "imageUrl": "./project3.png",
         "title": "Приложение для изучения английских слов",
         "text": "Одностраничное приложение на React",
         "skill":"React",
