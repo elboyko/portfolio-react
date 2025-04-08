@@ -1,7 +1,7 @@
 [
       {
         "id": 1,
-        "imageUrl": "/project1.png",
+        "imageUrl": "./project1.png",
         "title": "Приложение для изучения английских слов",
         "text": "Одностраничное приложение на React",
         "skill":"React",
@@ -9,7 +9,7 @@
       },
       {
         "id": 2,
-        "imageUrl": "/project5.png",
+        "imageUrl": "./project5.png",
         "title": "Портфолио",
         "text": "Одностраничное приложение на React",
          "skill":"React",
@@ -18,7 +18,7 @@
 
        {
         "id": 3,
-        "imageUrl": "/project4.png",
+        "imageUrl": "./project4.png",
         "title": "Проект киносайта",
         "text": "JS проект с использованием API киносайта для показа лучших фильмов года",
          "skill":"JavaScript",
@@ -27,7 +27,7 @@
 
         {
       "id": 4,
-      "imageUrl": "/project1.png",
+      "imageUrl": "./project1.png",
       "title": "Школа программирования",
       "text": "Лендинг для школы программирования с использованием JavaScript",
       "skill":"JavaScript",
@@ -35,7 +35,7 @@
     }, 
         {
       "id": 5,
-      "imageUrl": "/project2.png",
+      "imageUrl": "./project2.png",
       "title": "Магазин чая",
       "text": "Лендинг для магазина чая с использованием JavaScript",
       "skill":"JavaScript",

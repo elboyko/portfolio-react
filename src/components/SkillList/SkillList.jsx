@@ -15,32 +15,32 @@ const lists = [
 
   {
     id: "3",
-    img: "/sass.svg",
+    img: "./sass.svg",
     title: "SASS",
   },
   {
     id: "4",
-    img: "/javascript.svg",
+    img: "./javascript.svg",
     title: "JavaScript",
   },
   {
     id: "5",
-    img: "/typescript.svg",
+    img: "./typescript.svg",
     title: "TypeScript",
   },
   {
     id: "6",
-    img: "/react.svg",
+    img: "./react.svg",
     title: "React",
   },
   {
     id: "7",
-    img: "/nextjs.svg",
+    img: "./nextjs.svg",
     title: "Next JS",
   },
   {
     id: "8",
-    img: "/git.svg",
+    img: "./git.svg",
     title: "Git",
   },
 ];
